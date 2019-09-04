@@ -3,6 +3,13 @@ osx_image: ubuntu 18.04
 
 language: bash
 
+before_cache:
+ - brew cleanup
+ 
+ cache:
+  - directories:
+   - $HOME/Library/Caches/Homebrew
+
 before_install:
   - whoami
   - echo "start of pipeline"
