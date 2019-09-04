@@ -1,5 +1,5 @@
 os: osx
-osx_image: ubuntu18.8
+osx_image: ubuntu 18.04
 
 language: bash
 
