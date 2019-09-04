@@ -7,8 +7,8 @@ before_cache:
  - brew cleanup
  
  cache:
-   - directories:
-    - $HOME/Library/Caches/Homebrew
+  - directories:
+   - $HOME/Library/Caches/Homebrew
 
 before_install:
   - whoami
